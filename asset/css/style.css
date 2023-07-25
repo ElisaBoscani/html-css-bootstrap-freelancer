@@ -39,6 +39,9 @@ footer {
   color: var(--bst--primary);
 }
 
+.copiright {
+  background-color: var(--bst--secondary);
+}
 .line {
   width: 10%;
   height: 0.2125rem;
