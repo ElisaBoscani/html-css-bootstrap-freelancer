@@ -8,8 +8,16 @@
   --bst--primary: #1abc9c;
   --bst--secondary: #2c3e50;
   --bst--footer: #3a546d;
+  --bst--light: #ffffff;
 }
 
 .jumbotron {
   background-color: var(--bst--primary);
+}
+
+.line {
+  width: 10%;
+  height: 0.2125rem;
+  border-radius: 0.125rem;
+  background-color: var(--bst--light);
 }
