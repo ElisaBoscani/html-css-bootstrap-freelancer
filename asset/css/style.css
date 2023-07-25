@@ -1,18 +1,32 @@
+/* global */
+footer {
+  background-color: var(--bst--footer);
+}
+
+/* end global */
 /* debug */
 .debug header {
   height: 90px;
   background-color: #2c3e50;
 }
 
-button {
-  background-color: var(--bst--primary);
+.debug .contact {
+  background-color: antiquewhite;
+  height: 600px;
 }
+
+/* end debug */
+/* utility */
+
 :root {
   --bst--primary: #1abc9c;
   --bst--secondary: #2c3e50;
   --bst--footer: #3a546d;
   --bst--light: #ffffff;
 }
+
+/* end utility */
+/* section */
 
 .jumbotron {
   background-color: var(--bst--primary);
@@ -21,6 +35,9 @@ button {
 .about {
   background-color: var(--bst--primary);
 }
+.link_footer {
+  color: var(--bst--primary);
+}
 
 .line {
   width: 10%;
@@ -28,3 +45,9 @@ button {
   border-radius: 0.125rem;
   background-color: var(--bst--light);
 }
+
+.square {
+  width: 40px;
+  height: 40px;
+}
+/* end section */
