@@ -235,7 +235,7 @@
           <div class="line bg-black"></div>
         </div>
 
-        <form class="container w-75">
+        <form class="container w-75 pb-4">
           <div class="mb-3">
             <label for="name" class="form-label m-0 fw-medium">Name</label>
             <input
@@ -257,17 +257,28 @@
             />
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label m-0 fw-medium"
+            <label for="password" class="form-label m-0 fw-medium"
               >Phone Number</label
             >
             <input
               type="password"
               class="form-control border-0 border-bottom rounded-0 p-0"
-              id="exampleInputPassword1"
+              id="password"
             />
           </div>
 
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <div class="mb-3">
+            <label for="message" class="form-label m-0 fw-medium"
+              >Message</label
+            >
+            <textarea
+              class="form-control border-0 border-bottom rounded-0 p-0"
+              id="message"
+              rows="3"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn_send">Send</button>
         </form>
       </section>
     </main>

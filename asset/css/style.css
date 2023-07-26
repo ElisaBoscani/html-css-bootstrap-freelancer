@@ -52,6 +52,9 @@ footer {
   background-color: var(--bst--light);
 }
 
+.btn_send {
+  background-color: var(--bst--primary);
+}
 .square {
   width: 40px;
   height: 40px;
