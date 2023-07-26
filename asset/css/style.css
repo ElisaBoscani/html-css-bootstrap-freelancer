@@ -3,6 +3,9 @@
 footer {
   background-color: var(--bst--footer);
 }
+h2 {
+  font-size: 1.25rem;
+}
 
 /* end global */
 /* debug */
@@ -60,3 +63,15 @@ footer {
   height: 40px;
 }
 /* end section */
+/* media query */
+
+@media screen and (min-width: 576px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 991px) {
+  h2 {
+    font-size: 2.25rem;
+  }
+}
